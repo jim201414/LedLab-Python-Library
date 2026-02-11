@@ -7,7 +7,7 @@ A library for easier led manipulation in python
 
 ## Features
 
+</div>
+
 - Led Listing.
 - Easy and short commands for difficult thing.
-
-</div>
