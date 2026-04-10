@@ -36,5 +36,4 @@ try:
 except KeyboardInterrupt:
     red_led.off()
     yellow_led.off()
-
     green_led.off()
