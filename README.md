@@ -10,4 +10,4 @@ A library for easier led manipulation in python
 </div>
 
 - 🎯 Led Listing.
-- ✨ Easy and short commands for difficult thing.
+- ✨ Easy and short commands.
