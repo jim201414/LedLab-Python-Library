@@ -1,3 +1,11 @@
+"""
+Copyright (c) 2025-2026 Jim Harisis
+All rights reserved.
+
+This source code is the property of the author and may not be
+reproduced, distributed, or modified without permission.
+"""
+
 from telemetrix import telemetrix
 from time import sleep
 board = telemetrix.Telemetrix()
@@ -19,7 +27,7 @@ class LedLab:
     ## Properties 
     `is_active`: True if the LED is currently ON   
     
-    ## Atributes
+    ## Attributes
     `pin`: The digital pin of the LED    
     `name`: The display name of the LED    
     """
@@ -35,7 +43,7 @@ class LedLab:
         **name** **(optional):** *The display name of the LED*
         """
         self.pin = pin
-        if name == None:
+        if name is None:
             self.name = f"led{len(LedLab.available_leds)+1}"
         else:
             self.name = name
@@ -109,6 +117,7 @@ class LedLab:
         for led in cls.available_leds:
             if led.name == name:
                 return led
+        return None
 
     @property
     def is_active(self) -> bool:
