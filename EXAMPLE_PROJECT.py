@@ -1,4 +1,4 @@
-from __init__ import LedLab
+from LedLab import LedLab
 from time import sleep
 
 red_led = LedLab(8, name="red led")
