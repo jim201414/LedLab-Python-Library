@@ -11,3 +11,6 @@ A library for easier led manipulation in python
 
 - 🎯 Led Listing.
 - ✨ Easy and short commands.
+
+
+# Now Available at PyPi -> https://pypi.org/project/LedLab/1.1.0/
