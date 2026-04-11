@@ -1,5 +1,5 @@
 # Import the module
-from LedLab import LedLab
+from __init__ import LedLab
 
 # Creating a LED Object
 # First parameter: the pin of the LED
